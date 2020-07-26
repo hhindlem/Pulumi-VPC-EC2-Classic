@@ -1,5 +1,4 @@
 # Pulumi-VPC-EC2-Classic
-Pulumi AWS EC2 VPC for EC2-Classic accounts
 
 # An example Pulumi AWS EC2 VPC for EC2-Classic accounts
 
