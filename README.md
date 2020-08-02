@@ -37,6 +37,11 @@ and:
 $ ssh  -i test ec2-user@$(pulumi stack output publicIp)
 ```
 
+## Entity Linkage
+
+The linkage of the components looks something like this:
+![Screenshot](linkage.png)
+
 ## Other Solutions
 
 Another solution seems to be to convert your account. [Here](https://github.com/hashicorp/terraform/issues/4367) are some Terraform folks discussing the issue, and [one of the posts](https://github.com/hashicorp/terraform/issues/4367#issuecomment-513480968) suggests: aws-console -> new support issue -> "Regarding: Account and Billing Support" -> "Service: Account" -> "Category: Convert EC2 Classic to VPC".  I haven't yet tried this.
